@@ -1,0 +1,56 @@
+.hero-section {
+    margin-top: 40px;
+}
+
+.hero {
+    padding: 120px 0px 100px 86px;
+    background: url(../images/site-main-img.jpg);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 6px;
+}
+
+.hero__title {
+    color: #FEFCF7;
+    font-family: "Fraunces", sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.hero__text__wrap {
+    width: 417px;
+}
+
+.hero__text {
+    color: #FEFCF7;
+    font-family: "Barlow", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 56px;
+}
+
+.hero__button__link {
+    width: 217px;
+    padding: 15px;
+    background-color: $bg-color;
+    color: white;
+    border-radius: 6px;
+    transition: background-color 0.3s linear;
+
+    &:hover{
+        background-color: $hover-color;
+    }
+    &:active{
+        background-color: $active-color ;
+    }
+
+}
+
+
+.hero__content {
+    width: 493px;
+}

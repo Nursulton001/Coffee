@@ -1,0 +1,23 @@
+.navbar__list {
+    display: flex;
+}
+
+.navbar__item+.navbar__item {
+    margin-left: 33px;
+}
+
+.navbar__link {
+    color: #83888F;
+    font-family: "Barlow",serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+
+    &:hover{
+        color: $navbar-hover-color;
+    }
+}
